@@ -35,6 +35,14 @@ public class LineComparision {
 			} else
 				System.out.println("Lengths are not equal");
 
+			int compare = line1.compareTo(line2);
+
+			if (compare == 0)
+				System.out.println("Lines are Equal");
+			else if (compare > 0)
+				System.out.println("Line 1 is Greater than Line 2");
+			else
+				System.out.println("Line 1 is Less than Line 2");
 
 		} else
 			System.out.println("Enter valid number");
